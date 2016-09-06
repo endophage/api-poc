@@ -10,6 +10,7 @@ edit v123/, v124/ & v125/ to comply to the new interface
 ```
 
 Pros: easy 
+
 Cons: you have to update all previous versions when you update the client interface, so we will probably support only X last versions
 
 
@@ -25,4 +26,5 @@ update main.go to use v126.NewClient()
 ```
 
 Pros: no need to touch the previous version when you add one, so we could potentially support all previous version
+
 Cons: more work to create a new version
